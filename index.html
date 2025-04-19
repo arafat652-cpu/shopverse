@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ShopVerse - Your All-in-One Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f8f8;
+    }
+    header {
+      background-color: #007bff;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0056b3;
+    }
+    nav a {
+      color: white;
+      padding: 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background-color: #003d80;
+    }
+    .container {
+      padding: 1rem;
+    }
+    .product {
+      background-color: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product img {
+      width: 100%;
+      max-width: 300px;
+    }
+    .btn {
+      background-color: #28a745;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      cursor: pointer;
+      border-radius: 4px;
+    }
+    .pay-btn {
+      background-color: #ff6f00;
+      color: white;
+      padding: 0.6rem 1.2rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    footer {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ShopVerse</h1>
+    <p>Welcome to your one-stop shop for everything!</p>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <div class="container" id="products">
+    <h2>Our Products</h2>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200" alt="Product 1">
+      <h3>Smart Watch</h3>
+      <p>৳1500</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200" alt="Product 2">
+      <h3>Islamic Cap</h3>
+      <p>৳120</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="https://via.placeholder.com/300x200" alt="Product 3">
+      <h3>Men's T-Shirt</h3>
+      <p>৳350</p>
+      <button class="btn">Add to Cart</button>
+    </div>
+  </div>
+  <div class="container" id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: shopverse@example.com</p>
+    <p>Phone: 01234-567890</p>
+
+    <h3>Pay with bKash</h3>
+    <p>Click below to proceed with payment:</p>
+    <button class="pay-btn" onclick="alert('bKash payment gateway coming soon! Contact seller for manual payment.')">Pay Now with bKash</button>
+  </div>
+  <footer>
+    <p>&copy; 2025 ShopVerse. All rights reserved.</p>
+  </footer>
+</body>
+</html>
